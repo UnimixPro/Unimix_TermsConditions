@@ -1,0 +1,22 @@
+{
+    "name": "Unimix/module-terms-conditions",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "support@gmail.com",
+            "name": "UnimixPro"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Unimix\\TermsConditions\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

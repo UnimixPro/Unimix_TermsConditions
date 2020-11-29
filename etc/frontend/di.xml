@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<type name="Magento\CheckoutAgreements\Model\Agreement">
+		<plugin disabled="false"
+				name="Unimix_TermsConditions_Plugin_Frontend_Magento_CheckoutAgreements_Model_Agreement"
+				sortOrder="10"
+				type="Unimix\TermsConditions\Plugin\Frontend\Magento\CheckoutAgreements\Model\Agreement"/>
+	</type>
+</config>
